@@ -35,3 +35,6 @@ main{
     height: 780px;
     background-color: #f2f9ff;
 }
+.dark{
+    background-color: black;
+}

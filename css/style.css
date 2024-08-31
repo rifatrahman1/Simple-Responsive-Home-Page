@@ -22,6 +22,12 @@ a {
     box-sizing: border-box;
 }
 
+h1, h6, p, a{
+    font-family: sans-serif;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Add some styles for body*/
 body {
     min-height: 100vh;
@@ -34,6 +40,11 @@ main{
     width: 1280px;
     height: 780px;
     background-color: #f2f9ff;
+}
+.container{
+    display: flex;
+    gap: 90px;
+    margin: 50px 120px;
 }
 .header{
     display: flex;
@@ -74,4 +85,64 @@ main{
     width: 18px;
     border-radius: 50%;
     background-color: white;
+}
+.communicate h6{
+    margin-bottom: 27px;
+    font-size: 13px;
+    color: #25333f;
+}
+.communicate p{
+    margin-bottom: 27px;
+    font-size: larger;
+    font-weight: 600;
+    color: #717c8f;
+}
+.communicate h1{
+    margin-bottom: 27px;
+    font-family: 'Sora';
+  font-style: normal;
+  font-size: 60px;
+  font-weight: 700;
+  font-display: swap;
+  color: #213443;
+}
+.btn button{
+    margin-bottom: 27px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    padding: 15px 27px;
+    color: white;
+    background-color: #2b4ed0;
+}
+#demo{
+    text-decoration-line: overline;
+    padding-left: 30px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #2b4ed0;
+    text-decoration-thickness: 3px;
+}
+.line{
+    height: 5px;
+    width: 200px;
+    color: gray;
+}
+.last-done{
+    display: flex;
+    gap: 20px;
+}
+.done1{
+    display: flex;
+    gap: 10px;
+}
+.done1 p{
+    font-family: sans-serif;
+    color: #717c8f;
+}
+
+.robot img{
+    width: 500px;
+    height: 500px;
 }
